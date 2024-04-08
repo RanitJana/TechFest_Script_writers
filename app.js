@@ -27,12 +27,13 @@ let customer_name = document.querySelector("#customer_name");
 let bookName = document.querySelector("#bookName");
 let count = document.querySelector('#count');
 let msg = document.querySelector('.msgUser');
-console.log(customer_name.value);
-console.log(bookName.value);
-console.log(count.value);
 
-let userBtn = document.querySelector('.userFind');
+let userBtn = document.querySelector('#submit');
+
 userBtn.addEventListener('click', () => {
+    console.log(customer_name.value);
+    console.log(bookName.value);
+    console.log(count.value);
 
 
 
