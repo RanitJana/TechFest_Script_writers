@@ -21,3 +21,16 @@
 .list{
     padding: 10px;
 }
+
+.searchBookName .searchResult{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
