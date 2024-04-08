@@ -18,7 +18,7 @@ html,body{
     background-position: center;
 }
 
-.main{
+.node{
     /* margin: 3em; */
     /* background-color: var(--main-blue--); */
     display: flex;
