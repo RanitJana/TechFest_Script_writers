@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.box{
+    display: flex;
+    width: 100dvw;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.search{
+    padding: 10px;
+}
+.list{
+    padding: 10px;
+}
