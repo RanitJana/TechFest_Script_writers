@@ -6,13 +6,16 @@
 
 }
 :root{
-    --dark-blur--: #3B7197;
+    --dark-blur--: #54eee6;
     --main-blue-- : #74DBE0;
 }
 html,body{
     height: 100%;
     width: 100%;
-    background-color: var(--main-blue--);
+    /* background-color: var(--main-blue--); */
+    background-image: url(background\ book.jpg);
+    background-size: cover ;
+    background-position: center;
 }
 
 .up{
@@ -26,7 +29,7 @@ html,body{
 
 .main{
     /* margin: 3em; */
-    background-color: var(--main-blue--);
+    /* background-color: var(--main-blue--); */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -40,5 +43,21 @@ button{
     background-color: aqua;
     border: black;
     border-radius: 5px;
-    
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    /* border: none; */
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    /* z-index: 5; */
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
 }
